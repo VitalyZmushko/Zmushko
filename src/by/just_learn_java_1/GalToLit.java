@@ -7,8 +7,12 @@ public class GalToLit {
     public static final Scanner scan = new Scanner(System.in);
 
     public static void main(String[] args) {
-        gal_to_lit();
-        System.out.println(weightOnMoon(scan.nextInt()));
+       // gal_to_lit();
+       // System.out.println(weightOnMoon(scan.nextInt()));
+        String string = "12.84";
+        double result = Double.parseDouble(string);
+        result = Math.round(result);
+        System.out.println(result);
     }
 
     private static double weightOnMoon(int weight) {
